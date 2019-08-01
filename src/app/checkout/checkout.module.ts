@@ -7,12 +7,16 @@ import { CustomerInfoComponent } from './customer-info/customer-info.component';
 import { PaymentInfoComponent } from './payment-info/payment-info.component';
 import { ReceiptInfoComponent } from './receipt-info/receipt-info.component';
 
-
 @NgModule({
-  declarations: [CheckoutComponent, CustomerInfoComponent, PaymentInfoComponent, ReceiptInfoComponent],
   imports: [
     CommonModule,
     CheckoutRoutingModule
+  ],
+  declarations: [
+    CheckoutComponent,
+    CustomerInfoComponent,
+    PaymentInfoComponent,
+    ReceiptInfoComponent
   ]
 })
 export class CheckoutModule { }

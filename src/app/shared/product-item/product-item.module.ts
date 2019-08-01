@@ -8,6 +8,7 @@ import { ProductItemComponent } from './product-item.component';
   declarations: [ProductItemComponent],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [ProductItemComponent]
 })
 export class ProductItemModule { }

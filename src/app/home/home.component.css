@@ -271,3 +271,10 @@ article .today-choice {
   }
 
 }
+app-product-item {
+  display: inline-block;
+}
+
+app-product-item:nth-child(2) {
+  margin: 0px 20px;
+}
